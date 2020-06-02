@@ -1,0 +1,13 @@
+.detailsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Queries */
+@media (min-width: 950px) {
+  .detailsWrapper {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,28 @@
+.featuresSection {
+  background-color: #4abebd;
+  color: #fff;
+
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.featuresContent {
+  padding: 2rem 0;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.listItem {
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 0.5rem;
+}
+
+/* Media Queries */
+@media (min-width: 950px) {
+  .featuresSection {
+    border-bottom-left-radius: 0;
+  }
+}

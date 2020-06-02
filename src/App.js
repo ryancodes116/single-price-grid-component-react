@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Info from './components/Info';
+import Details from './components/Details';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello World!</h1>
+    <div className="mainContainer">
+      <Info />
+      <Details />
     </div>
   );
 };
