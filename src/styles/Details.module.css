@@ -1,13 +1,16 @@
 .detailsWrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 /* Media Queries */
 @media (min-width: 950px) {
   .detailsWrapper {
     flex-direction: row;
+    justify-content: stretch;
+    width: 100%;
   }
 }

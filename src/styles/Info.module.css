@@ -21,3 +21,10 @@
 .text {
   color: hsl(218, 22%, 67%);
 }
+
+/* Media Queries */
+@media (min-width: 950px) {
+  .infoContent {
+    width: 91%;
+  }
+}

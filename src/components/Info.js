@@ -6,7 +6,7 @@ const Info = () => {
   return (
     <div className={styles.infoSection}>
       <div className={classNames('container', styles.infoContent)}>
-        <h2 className={styles.title}>Join our community</h2>
+        <h1 className={styles.title}>Join our community</h1>
         <h3 className={styles.subtitle}>
           30-day, hassle-free money back guarantee
         </h3>

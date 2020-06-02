@@ -23,6 +23,7 @@
 /* Media Queries */
 @media (min-width: 950px) {
   .featuresSection {
+    width: 50%;
     border-bottom-left-radius: 0;
   }
 }
